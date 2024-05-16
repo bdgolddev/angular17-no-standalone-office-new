@@ -1,0 +1,29 @@
+<div class="LoginCard">
+  <h2>Login Here!</h2>
+  <form #loginForm="ngForm" (ngSubmit)="getData(loginForm.value)">
+    <input
+      ngModel
+      class="inputStyle"
+      type="text"
+      name="username"
+      id="username"
+      placeholder="@username = admin"
+    />
+    
+    <input
+      ngModel
+      class="inputStyle"
+      type="password"
+      name="password"
+      id="password"
+      placeholder="password = 1234"
+    />
+
+    <button class="btnStyle">Submit</button>
+    <div >
+      <p class="errorBox">
+        {{ errorMessage }}
+      </p>
+    </div>
+  </form>
+</div>

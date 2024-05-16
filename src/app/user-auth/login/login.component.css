@@ -1,0 +1,34 @@
+.LoginCard{
+    border: 1px solid black;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.inputStyle{
+    width: 450px;
+    margin: 15px auto;
+    font-size: 20px;
+    padding: 8px;
+    display: block
+}
+
+.btnStyle{
+    width: 450px;
+    background-color: darkgreen;
+    color: white;
+    outline: none;
+    padding: 8px;
+    margin-bottom: 25px; 
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnStyle:hover{
+    background-color: rgba(0, 99, 0, 0.932);
+}
+.errorBox{
+    background-color: rgb(255, 244, 246);
+    color: red;
+    font-weight: 600;
+}
