@@ -7,12 +7,18 @@ import { UserAuthModule } from './user-auth/user-auth.module';
 import { UsersComponent } from './users/users.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from './navbar/navbar.component';
+import { MenuComponent } from './navbar/menu/menu.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UsersComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    NavbarComponent,
+    MenuComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

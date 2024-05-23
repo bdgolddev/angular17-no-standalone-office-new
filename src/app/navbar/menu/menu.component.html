@@ -1,0 +1,9 @@
+<div class="menu">
+  <ul class="list" *ngFor="let menu of menuList">
+    <li>
+      <a routerLink="{{ menu.path }}"
+        routerLinkActive="active-link"
+      >{{ menu.name }}</a>
+    </li>
+  </ul>
+</div>

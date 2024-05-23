@@ -1,0 +1,24 @@
+.menu{
+    display: flex;
+    justify-content: end;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+    text-transform: capitalize;
+    transition: .3s;
+}a:hover{
+    background-color: rgb(1, 48, 30);
+}
+.active-link{
+    
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+    text-transform: capitalize;
+    background-color: rgba(1, 48, 30, 0.712);
+}

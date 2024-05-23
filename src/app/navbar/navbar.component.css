@@ -1,0 +1,19 @@
+.nav{
+    background-color: darkslategray;
+    padding: 8px;
+
+}
+.navigation{
+    margin: 0 auto;
+    width: 900px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(251, 255, 0);
+}

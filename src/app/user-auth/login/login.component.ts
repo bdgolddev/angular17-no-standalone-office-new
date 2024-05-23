@@ -25,7 +25,9 @@ export class LoginComponent implements OnInit {
     this.password=logData.password
 
     if(this.username === 'admin' && this.password === '1234'){
-      this.handleNavigate()
+      this.handleNavigate();
+      localStorage.setItem("userType", "Admin");
+
     }else{
       this.errorMessage= 'Invalid Username or password, Please provide valid information.'
     }
